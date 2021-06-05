@@ -1,0 +1,33 @@
+###
+GET http://localhost:3000/api?page=1&size=33&title=cambo
+
+
+#####
+POST http://localhost:3000/API
+Content-Type: application/json
+
+{
+    "title":"cambo",
+    "description":"eeeesisii",
+    "done":true
+}
+
+
+#####
+get http://localhost:3000/API/60b94fa51b2c602340ac46aa
+
+####
+DELETE http://localhost:3000/API/60b945f4adcbb82f98b181e9
+
+######
+GET http://localhost:3000/api/done
+
+####
+put http://localhost:3000/API/60b94fa51b2c602340ac46aa
+Content-Type: application/json
+
+{
+    "title":"hacer un siasdfasdfasdfasfasdftio web nuevo",
+    "description":"sisii",
+    "done":true
+}
